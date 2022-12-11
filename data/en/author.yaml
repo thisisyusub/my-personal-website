@@ -1,0 +1,13 @@
+# some information about you
+name: "Kanan Yusubov"
+nickname: "Kanan"
+# greeting message before your name. it will default to "Hi! I am" if not provided
+greeting: "Hi, I am"
+image: "images/author/profile.jpg"
+
+# some summary about what you do
+summary:
+  - Senior Flutter Engineer
+  - Swift Enthusiast
+  - Love to teach people
+  - Love to work with some fun projects

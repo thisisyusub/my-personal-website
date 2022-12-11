@@ -1,0 +1,70 @@
+# section information
+section:
+  name: Experiences
+  id: experiences
+  enable: true
+  weight: 3
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true 
+
+# Your experiences
+experiences:
+- company:
+    name: Azerconnect LLC.
+    url: "https://www.azerconnect.az/?lang=en"
+    location: Azerbaijan, Baku
+    # company overview
+    overview: "Being the first Business to Business (B2B) company in the fast-growing information,  communication, and high technologies areas of the Republic of Azerbaijan, Azerconnect LLC provides varied services in line with international standards."
+  positions:
+  - designation: Senior Mobile Platforms Engineer
+    start: July, 2022
+    # give some points about what was your responsibilities at the company.
+    responsibilities:
+    - Building Intranet Application of Azerconnect for employees
+    - Design, develop and maintain Inside Application
+
+- company:
+    name: Starex.az
+    url: "https://starex.az/"
+    location: Azerbaijan, Baku
+    overview: "Starex.az carries out the delivery of both domestic and international mail parcels with the license obtained in accordance with the legislation of the Republic of Azerbaijan. Our company is currently registered in Azerbaijan, Turkey, America and China and operates in its own offices in all three countries. You can use our services for ordering from Turkey, America and China."
+  positions:
+  - designation: Flutter Developer
+    start: October, 2021
+    end: June, 2022
+    responsibilities:
+    - Initial and next releases of Starex App
+    - Maintaining the application
+    - Write unit tests
+    - Implemented Bon.az cashback, Stories, Gitlab CI, Calculator
+
+- company:
+    name: Frazex LLC
+    url: "http://frazex.com"
+    location: Azerbaijan, Baku
+    overview: "FRAZEX LLC is a multidisciplinary organization that focuses its investments in promising and scalable projects."
+  positions:
+  - designation: Flutter Developer
+    start: May, 2021
+    end: October, 2021
+    responsibilities:
+    - Help other developers as Team Lead
+    - Maintaining the applications (generally, E-commerce applications)
+    - Write unit tests
+    - Help to define project Structure
+
+- company:
+    name: Crocusft LLC
+    url: "https://crocusoft.com"
+    location: Azerbaijan, Baku
+    overview: "Crocusoft is a software development company with a young, innovative team that has been specializing in developing software solutions for local and international markets since 2015"
+  positions:
+  - designation: Android (Java) Developer Intern
+    start: March, 2019
+    end: July, 2019
+    responsibilities:
+    - Build app with team
+    - Learn MVP Pattern
+    - Learn Kotlin Programming Language
+    - Help to define project Structure

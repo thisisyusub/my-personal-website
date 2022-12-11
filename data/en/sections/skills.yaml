@@ -1,0 +1,28 @@
+# section information
+section:
+  name: Skills
+  id: skills
+  enable: true
+  weight: 2
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# Your Skills.
+# Give a summary of you each skill in the summary section.
+skills:
+- name: Flutter
+  logo: /images/sections/skills/flutter.svg
+  summary: "-"
+  url: "https://flutter.dev"
+
+- name: Dart
+  logo: /images/sections/skills/dart.svg
+  summary: "-"
+  url: "https://flutter.dev"
+
+- name: Swift
+  logo: /images/sections/skills/swift.svg
+  summary: "-"
+  url: "https://flutter.dev"
+

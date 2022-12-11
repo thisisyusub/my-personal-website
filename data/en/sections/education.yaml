@@ -1,0 +1,51 @@
+# section information
+section:
+  name: Education
+  id: education
+  template: sections/education.html # Use "sections/education-alt.html for alternate template.
+  enable: true
+  weight: 4
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+degrees:
+- name: Master degree in Computer Engineering
+  icon: fa-graduation-cap
+  timeframe: 2020-2022
+  institution:
+    name: Baku Engineering University
+    url: "https://beu.edu.az/en"
+  grade: #(optional)
+    scale: GPA
+    achieved: 96.33
+    outOf: 100
+
+- name: B.Sc. in Computer Engineering
+  icon: fa-graduation-cap
+  timeframe: 2016-2020
+  institution:
+    name: Azerbaijan State Oil and Industry University
+    url: "http://asoiu.edu.az/en"
+  grade: #(optional)
+    scale: GPA
+    achieved: 94
+    outOf: 100
+  # takenCourses: #(optional)
+  #   # if true, the courses will be rendered as a table otherwise it will render as a list and the grades will be hidden.
+  #   showGrades: true
+  #   collapseAfter: 3
+  #   courses:
+  #   - name: Data Structures and Algorithm
+  #     achieved: 3.75
+  #     outOf: 4
+  #   - name: Network Security
+  #     achieved: 3.80
+  #     outOf: 4
+  #   - name: Operating System
+  #     achieved: 3.5
+  #     outOf: 4
+  #   - name: Artificial Intelligent
+  #     achieved: 3.75
+  #     outOf: 4
+

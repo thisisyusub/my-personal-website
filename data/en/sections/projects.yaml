@@ -1,0 +1,45 @@
+# section information
+section:
+  name: Projects
+  id: projects
+  enable: true
+  weight: 5
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# filter buttons
+buttons:
+- name: All
+  filter: "all"
+- name: Professional
+  filter: "professional"
+- name: Hobby
+  filter: "hobby"
+
+# your projects
+projects:
+- name: Inside
+  logo: /images/sections/skills/dart.svg
+  role: Flutter Developer and Maintainer
+  timeline: "July 2022 - Present"
+  url: https://apps.apple.com/us/app/azerconnect-inside/id6444026245
+  summary: Inside application is developed for users with an aim of increasing awareness about telecom industry, engaging more users to our acitivites. Users can get information about corporate news, announcements, events, vacancies, company information and e.t.c.
+  tags: ["professional", "flutter", "dart", "riverpod", "firebase", "dio"]
+
+- name: MKT Cotton
+  logo: /images/sections/skills/dart.svg
+  role: Flutter Developer (Freelance)
+  timeline: "March 2022 - July 2022"
+  url: https://play.google.com/store/apps/details?id=com.mktcotton.app
+  summary: MKT COTTON mobile application is a new contract application for farmers who are partners with MKT Istehsalat Kommersiya LLC, as well as information on previous contracts, a mobile application designed to monitor transactions. All farmers can benefit from the features listed in the application.
+  tags: ["professional", "flutter", "bloc", "dio", "otp"]
+
+- name: Qasid
+  logo: /images/sections/skills/dart.svg
+  role: Flutter Developer and Maintainer
+  timeline: "March 2022 - July 2022"
+  url: https://play.google.com/store/apps/details?id=com.yusubov.qasid
+  summary: It is possible to read news from different news sites in Azerbaijan in this application by selecting them within one application.
+  tags: ["hobby", "flutter", "bloc", "dio", "feed/rss"]
+

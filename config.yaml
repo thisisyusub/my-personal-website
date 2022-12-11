@@ -1,0 +1,100 @@
+baseURL: https://hugo-toha.github.io
+
+languageCode: en-us
+title: "Yusubov"
+theme: "toha"
+
+# Manage languages
+# For any more details, you can check the official documentation: https://gohugo.io/content-management/multilingual/
+languages:
+  en:
+    languageName: English
+    weight: 1
+
+# Force a locale to be use, really useful to develop the application ! Should be commented in production, the "weight" should rocks.
+# DefaultContentLanguage: bn
+
+# Allow raw html in markdown file
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  tableOfContents:
+    startLevel: 2
+    endLevel: 6
+    ordered: false
+
+# At least HTML and JSON are required for the main HTML content and
+# client-side JavaScript search
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
+# Enable global emoji support
+enableEmoji: true
+
+# Site parameters
+params:
+  # Background image of the landing page
+  background: /images/site/background.jpeg
+
+  # Provide logos for your site. The inverted logo will be used in the initial
+  # transparent navbar and the main logo will be used in the non-transparent navbar.
+  logo:
+    favicon: /images/author/profile.jpg
+
+  # GitHub repo of your site
+  gitRepo: https://github.com/hugo-toha/hugo-toha.github.io
+  # Default branch of your Git repo
+  gitBranch: main
+
+  # Configure the number of section title visible in the top navbar
+  topNavbar:
+    maxVisibleSections: 5
+
+  # Enable dark theme
+  darkMode:
+    provider: darkreader
+    enable: true
+    default: system
+
+  # Configure various features of this theme
+  features:
+    # Enable and configure portfolio
+    portfolio:
+      enable: true
+    # Enable and configure blog posts
+    blog:
+      enable: true
+      # Share post on different social media
+      shareButtons:
+        facebook: true
+        twitter: true
+        linkedin: true
+        reddit: true
+        whatsapp: true
+        email: true
+        # tumblr: true
+        # pocket: true
+        # diaspora: true
+        # mastodon: true
+
+    # Enable & configure "Notes" features
+    notes:
+      enable: true
+
+  # specify whether you want to show Table of Contents in reading page
+  enableTOC: true
+
+  # Show tags under the post title
+  enableTags: true
+
+  # Specify whether to show flag in the language selector. Default is true.
+  showFlags: true
+
+  # Provide footer configuration.
+  footer:
+    enable: false
+   

@@ -1,0 +1,29 @@
+# section information
+section:
+  name: Blog
+  id: publications
+  enable: true
+  weight: 6
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# your publications
+publications:
+- title: Enhance your app with Firebase Dynamic Link + Riverpod + GoRouter
+  publishedIn:
+    name: Flutter Community
+    date: 22 October 2022
+    url: https://medium.com/flutter-community
+  paper:
+    summary: Deep link is one of the most essential functionalities in mobile apps. But, it seems difficult to developers. In this tutorial, we will build an application that supports Deep linking and easy navigation with GoRouter. As a state management, we will use Riverpod.
+    url: https://medium.com/flutter-community/enhance-your-app-with-firebase-dynamic-link-riverpod-gorouter-part-1-android-3266c6ce68b4
+
+- title: "Bloc Testing: Write Your First Simple Unit Test in Flutter"
+  publishedIn:
+    name: Flutter Community
+    date: January 2021
+    url: https://medium.com/flutter-community
+  paper:
+    summary: During the development, we need to be sure that everything works fine. So, we need to test our code. There are several testing stages and one of them is Unit Testing. In this article, we will write simple Bloc that will fetch and filter items. Then we will write test for our Bloc.
+    url: https://medium.com/flutter-community/bloc-testing-write-your-first-simple-unit-test-in-flutter-1eee1d1642aa
