@@ -1,5 +1,3 @@
-baseURL: yusubov.com
-
 languageCode: en-us
 title: "Yusubov"
 theme: "toha"
@@ -67,7 +65,7 @@ params:
       enable: true
     # Enable and configure blog posts
     blog:
-      enable: true
+      enable: false
       # Share post on different social media
       shareButtons:
         facebook: true
